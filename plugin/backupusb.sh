@@ -14,6 +14,7 @@ else
    PURPLE='\c00?:55>7'
    WHITE='\c00??????'
 fi
+
 export LANG=$1
 export HARDDISK=0
 export SHOW="python /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite/message.py $LANG"

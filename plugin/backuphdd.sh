@@ -1,6 +1,4 @@
 #!/bin/sh
-### Still somewhat experimental but I think it will work! [ Untill proven otherwise :-) ]
-
 if tty > /dev/null ; then
    RED='-e \e[00;31m'
    GREEN='-e \e[00;32m'
